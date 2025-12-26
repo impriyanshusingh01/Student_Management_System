@@ -37,9 +37,18 @@
 - Spring Web
 
 
+## API Endpoints
 
-## How To Run Application:
-- Run main Spring Boot application and then use your postman to fetch data of student by using APIs endpoint
+- `GET /students` - Fetch all students
+- `GET /students/{id}` - Fetch student by ID
+- `POST /students` - Add new student
+- `PUT /students/{id}` - Update student by ID
+- `PATCH /students/{id}` - Partial update student by ID
+- `DELETE /students/{id}` - Delete student by ID
+
+
+
+
 
 ### Root Files:
 
@@ -83,3 +92,16 @@
 |                           StudentManagementSystemApplicationTests.java
 |                           StudentTest.java
 |
+
+```
+
+## API Demo
+
+**Fetch all students**  
+![Get Students](screenshots/postman_get.png)
+
+**Add Student**
+![Add Student](screenshots/postman_post.png)
+
+## How To Run Application:
+- Run main Spring Boot application and then use your postman to fetch data of student by using APIs endpoint
