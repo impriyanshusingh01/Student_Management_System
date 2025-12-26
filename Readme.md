@@ -22,3 +22,45 @@
 
 ## How To Run Application:
 - Run main springboot application and then use your postman to fetch data of student by using APIs endpoint
+
+### Root Files:
+
++---src
+|   +---main
+|   |   +---java
+|   |   |   \---com
+|   |   |       \---example
+|   |   |           \---Student_Management_System
+|   |   |               |   StudentManagementSystemApplication.java
+|   |   |               |
+|   |   |               +---controller
+|   |   |               |       StudentController.java
+|   |   |               |
+|   |   |               +---entity
+|   |   |               |       StudentEntity.java
+|   |   |               |
+|   |   |               +---modal
+|   |   |               |       StudentDto.java
+|   |   |               |
+|   |   |               +---repository
+|   |   |               |       StudentRepository.java
+|   |   |               |
+|   |   |               \---service
+|   |   |                   |   StudentService.java
+|   |   |                   |
+|   |   |                   \---Impl
+|   |   |                           StudentServiceImpl.java
+|   |   |
+|   |   \---resources
+|   |       |   application.properties
+|   |       |
+|   |       +---static
+|   |       \---templates
+|   \---test
+|       \---java
+|           \---com
+|               \---example
+|                   \---Student_Management_System
+|                           StudentManagementSystemApplicationTests.java
+|                           StudentTest.java
+|
